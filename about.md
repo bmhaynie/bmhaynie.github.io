@@ -2,14 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+order: 2
 ---
 
-Test, This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut lacus eu lorem ornare imperdiet ut eget velit. Etiam nisl erat, dictum non urna blandit, vestibulum varius arcu. Vestibulum fermentum tincidunt tellus, sit amet consequat felis. Sed tempus nec nibh consectetur fermentum. Ut accumsan consequat nisi, sed rhoncus sem venenatis vel. Vivamus ut tristique magna. Suspendisse potenti. Morbi gravida faucibus ultrices. Proin sed egestas quam. Vivamus sit amet leo id justo efficitur egestas. Aenean nulla dolor, accumsan at ornare quis, auctor a ipsum.
