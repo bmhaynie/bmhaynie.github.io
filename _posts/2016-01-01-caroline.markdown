@@ -1,0 +1,13 @@
+---
+beer-abv: "5.8%"
+beer-availability: "Keg"
+beer-bitterness: ""
+beer-gravity: ""
+beer-sourness: ""
+beer-style: "Sour"
+categories: beer
+image: 
+layout: beer
+permalink: beer/caroline/
+title:  "Caroline"
+---

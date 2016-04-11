@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Apr 2016 12:01:43 -0400</pubDate>
-    <lastBuildDate>Fri, 08 Apr 2016 12:01:43 -0400</lastBuildDate>
+    <pubDate>Sun, 10 Apr 2016 21:13:43 -0400</pubDate>
+    <lastBuildDate>Sun, 10 Apr 2016 21:13:43 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -29,12 +29,116 @@
       </item>
     
       <item>
-        <title>Big Sister</title>
-        <description>&lt;p&gt;Big Sister description&lt;/p&gt;
+        <title>Yucatan</title>
+        <description>
 </description>
-        <pubDate>Fri, 08 Apr 2016 08:20:01 -0400</pubDate>
-        <link>http://yourdomain.com/beer/big-sister/</link>
-        <guid isPermaLink="true">http://yourdomain.com/beer/big-sister/</guid>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/beer/yucatan/</link>
+        <guid isPermaLink="true">http://yourdomain.com/beer/yucatan/</guid>
+        
+        
+        <category>beer</category>
+        
+      </item>
+    
+      <item>
+        <title>Tweener</title>
+        <description>
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/beer/tweener/</link>
+        <guid isPermaLink="true">http://yourdomain.com/beer/tweener/</guid>
+        
+        
+        <category>beer</category>
+        
+      </item>
+    
+      <item>
+        <title>Tied On</title>
+        <description>
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/beer/tied-on/</link>
+        <guid isPermaLink="true">http://yourdomain.com/beer/tied-on/</guid>
+        
+        
+        <category>beer</category>
+        
+      </item>
+    
+      <item>
+        <title>Stateside</title>
+        <description>
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/beer/stateside/</link>
+        <guid isPermaLink="true">http://yourdomain.com/beer/stateside/</guid>
+        
+        
+        <category>beer</category>
+        
+      </item>
+    
+      <item>
+        <title>Standard Issue</title>
+        <description>
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/beer/standard-issue/</link>
+        <guid isPermaLink="true">http://yourdomain.com/beer/standard-issue/</guid>
+        
+        
+        <category>beer</category>
+        
+      </item>
+    
+      <item>
+        <title>Special B</title>
+        <description>
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/beer/special-b/</link>
+        <guid isPermaLink="true">http://yourdomain.com/beer/special-b/</guid>
+        
+        
+        <category>beer</category>
+        
+      </item>
+    
+      <item>
+        <title>Southern Sour Blonde</title>
+        <description>
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/beer/southern-sour-blonde/</link>
+        <guid isPermaLink="true">http://yourdomain.com/beer/southern-sour-blonde/</guid>
+        
+        
+        <category>beer</category>
+        
+      </item>
+    
+      <item>
+        <title>Ripe</title>
+        <description>
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/beer/ripe/</link>
+        <guid isPermaLink="true">http://yourdomain.com/beer/ripe/</guid>
+        
+        
+        <category>beer</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Learner</title>
+        <description>
+</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
+        <link>http://yourdomain.com/beer/quick-learner/</link>
+        <guid isPermaLink="true">http://yourdomain.com/beer/quick-learner/</guid>
         
         
         <category>beer</category>

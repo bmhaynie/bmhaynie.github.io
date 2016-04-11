@@ -8,7 +8,14 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
+  	{{ page.beer-abv }}
+  	{{ page.beer-availability }}
+  	{{ page.beer-bitterness }}
+  	{{ page.beer-gravity }}
+  	{{ page.beer-sourness }}
+  	{{ page.beer-style }}
     {{ content }}
+    <img src="/images/{{ page.image }}">
   </div>
 
 </article>
