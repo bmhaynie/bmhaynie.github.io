@@ -4,10 +4,7 @@ beer-availability: "Keg"
 beer-bitterness: ""
 beer-gravity: ""
 beer-sourness: ""
-beer-style: "Porter"
-categories: beer
-image: 
+beer-style: "American Red Ale"
 layout: beer
-permalink: beer/cafe-au-porter/
-title:  "Cafe au Porter"
+title:  "Special B"
 ---

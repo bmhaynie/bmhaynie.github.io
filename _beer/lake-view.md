@@ -5,9 +5,6 @@ beer-bitterness: ""
 beer-gravity: ""
 beer-sourness: ""
 beer-style: "Pale Ale"
-categories: beer
-image: 
 layout: beer
-permalink: beer/lake-view/
 title:  "Lake View"
 ---

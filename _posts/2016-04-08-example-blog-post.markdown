@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Blog Post"
+title:  "Example Blog Post"
 date:   2016-04-08 08:20:01 -0400
 categories: blog
 ---

@@ -1,13 +1,10 @@
 ---
-beer-abv: "6.2%"
+beer-abv: "8.5%"
 beer-availability: "Keg"
 beer-bitterness: ""
 beer-gravity: ""
 beer-sourness: ""
 beer-style: "Stout"
-categories: beer
-image: 
 layout: beer
-permalink: beer/late-addition/
-title:  "Late Addition"
+title:  "Yucatan"
 ---

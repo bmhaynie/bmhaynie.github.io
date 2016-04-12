@@ -5,9 +5,6 @@ beer-bitterness: ""
 beer-gravity: ""
 beer-sourness: ""
 beer-style: "Belgian Tripel Ale"
-categories: beer
-image: 
 layout: beer
-permalink: beer/tied-on/
 title:  "Tied On"
 ---

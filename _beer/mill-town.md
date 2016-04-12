@@ -5,9 +5,6 @@ beer-bitterness: ""
 beer-gravity: ""
 beer-sourness: ""
 beer-style: "Brown Ale"
-categories: beer
-image: 
 layout: beer
-permalink: beer/mill-town/
 title:  "Mill Town"
 ---

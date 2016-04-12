@@ -4,10 +4,7 @@ beer-availability: "Keg"
 beer-bitterness: ""
 beer-gravity: ""
 beer-sourness: ""
-beer-style: "American Red Ale"
-categories: beer
-image: 
+beer-style: "Stout"
 layout: beer
-permalink: beer/special-b/
-title:  "Special B"
+title:  "Standard Issue"
 ---

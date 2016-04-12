@@ -5,9 +5,6 @@ beer-bitterness: ""
 beer-gravity: ""
 beer-sourness: ""
 beer-style: "Belgian Pale Ale"
-categories: beer
-image: 
 layout: beer
-permalink: beer/stateside/
 title:  "Stateside"
 ---

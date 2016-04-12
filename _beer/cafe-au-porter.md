@@ -4,10 +4,7 @@ beer-availability: "Keg"
 beer-bitterness: ""
 beer-gravity: ""
 beer-sourness: ""
-beer-style: "Stout"
-categories: beer
-image: 
+beer-style: "Porter"
 layout: beer
-permalink: beer/standard-issue/
-title:  "Standard Issue"
+title:  "Cafe au Porter"
 ---

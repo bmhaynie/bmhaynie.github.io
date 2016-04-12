@@ -1,13 +1,10 @@
 ---
-beer-abv: "5.1%"
+beer-abv: "4.5%"
 beer-availability: "Keg"
 beer-bitterness: ""
 beer-gravity: ""
 beer-sourness: ""
-beer-style: "Saison"
-categories: beer
-image: 
+beer-style: "American Session Ale"
 layout: beer
-permalink: beer/ripe/
-title:  "Ripe"
+title:  "Quick Learner"
 ---

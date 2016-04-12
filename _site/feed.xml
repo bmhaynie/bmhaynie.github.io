@@ -6,12 +6,12 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Apr 2016 10:50:04 -0400</pubDate>
-    <lastBuildDate>Tue, 12 Apr 2016 10:50:04 -0400</lastBuildDate>
+    <pubDate>Tue, 12 Apr 2016 13:03:53 -0400</pubDate>
+    <lastBuildDate>Tue, 12 Apr 2016 13:03:53 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
-        <title>Blog Post</title>
+        <title>Example Blog Post</title>
         <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie lacinia ante, eu faucibus ligula venenatis ut. Sed quis aliquet odio. Cras sit amet tincidunt quam. Donec eget sem ac justo hendrerit semper vitae eu tellus. Suspendisse potenti. Aenean nulla mi, placerat ac augue ut, dictum tempor quam. Sed id aliquam justo, sed rutrum lacus. In malesuada libero ac mi convallis, nec sollicitudin leo faucibus. Quisque non tristique felis, non molestie felis. Fusce eu est placerat, ultricies erat sit amet, condimentum lacus. Nam sed justo non sem placerat ullamcorper in ac nulla. Sed finibus augue ac pellentesque egestas. Quisque porta nunc ut sem accumsan semper. Vestibulum interdum tortor tempus vehicula ornare.&lt;/p&gt;
 
 &lt;p&gt;Etiam in eros eu neque volutpat pretium eu a velit. Mauris tristique augue at odio viverra interdum. Etiam porta pulvinar velit et varius. Nulla facilisi. Donec suscipit turpis auctor odio euismod, at finibus turpis volutpat. Vestibulum et interdum augue. Suspendisse sed lacinia mauris, ut ultrices risus. Vestibulum vel lectus at velit tempor aliquet.&lt;/p&gt;
@@ -20,128 +20,11 @@
 
 </description>
         <pubDate>Fri, 08 Apr 2016 08:20:01 -0400</pubDate>
-        <link>http://yourdomain.com/blog/2016/04/08/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/2016/04/08/welcome-to-jekyll.html</guid>
+        <link>http://yourdomain.com/blog/2016/04/08/example-blog-post.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/2016/04/08/example-blog-post.html</guid>
         
         
         <category>blog</category>
-        
-      </item>
-    
-      <item>
-        <title>Yucatan</title>
-        <description>
-</description>
-        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/beer/yucatan/</link>
-        <guid isPermaLink="true">http://yourdomain.com/beer/yucatan/</guid>
-        
-        
-        <category>beer</category>
-        
-      </item>
-    
-      <item>
-        <title>Tweener</title>
-        <description>
-</description>
-        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/beer/tweener/</link>
-        <guid isPermaLink="true">http://yourdomain.com/beer/tweener/</guid>
-        
-        
-        <category>beer</category>
-        
-      </item>
-    
-      <item>
-        <title>Tied On</title>
-        <description>
-</description>
-        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/beer/tied-on/</link>
-        <guid isPermaLink="true">http://yourdomain.com/beer/tied-on/</guid>
-        
-        
-        <category>beer</category>
-        
-      </item>
-    
-      <item>
-        <title>Stateside</title>
-        <description>
-</description>
-        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/beer/stateside/</link>
-        <guid isPermaLink="true">http://yourdomain.com/beer/stateside/</guid>
-        
-        
-        <category>beer</category>
-        
-      </item>
-    
-      <item>
-        <title>Standard Issue</title>
-        <description>
-</description>
-        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/beer/standard-issue/</link>
-        <guid isPermaLink="true">http://yourdomain.com/beer/standard-issue/</guid>
-        
-        
-        <category>beer</category>
-        
-      </item>
-    
-      <item>
-        <title>Special B</title>
-        <description>
-</description>
-        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/beer/special-b/</link>
-        <guid isPermaLink="true">http://yourdomain.com/beer/special-b/</guid>
-        
-        
-        <category>beer</category>
-        
-      </item>
-    
-      <item>
-        <title>Southern Sour Blonde</title>
-        <description>
-</description>
-        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/beer/southern-sour-blonde/</link>
-        <guid isPermaLink="true">http://yourdomain.com/beer/southern-sour-blonde/</guid>
-        
-        
-        <category>beer</category>
-        
-      </item>
-    
-      <item>
-        <title>Ripe</title>
-        <description>
-</description>
-        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/beer/ripe/</link>
-        <guid isPermaLink="true">http://yourdomain.com/beer/ripe/</guid>
-        
-        
-        <category>beer</category>
-        
-      </item>
-    
-      <item>
-        <title>Quick Learner</title>
-        <description>
-</description>
-        <pubDate>Fri, 01 Jan 2016 00:00:00 -0500</pubDate>
-        <link>http://yourdomain.com/beer/quick-learner/</link>
-        <guid isPermaLink="true">http://yourdomain.com/beer/quick-learner/</guid>
-        
-        
-        <category>beer</category>
         
       </item>
     

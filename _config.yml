@@ -15,6 +15,10 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 facebook_username: HighBranchBrewing
 twitter_username: highbranchbeer
 instagram_username: highbranchbeer
+collections:
+  beer:
+    output: true
+    permalink: /beer/:path/
 
 # Build settings
 markdown: kramdown
