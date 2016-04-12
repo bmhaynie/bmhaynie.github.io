@@ -2,12 +2,5 @@
     <a href="{{ site.baseurl }}/">
       {{ site.title }}
     </a>
-    <nav>
-      {% assign sorted_pages = site.pages | sort:"order" %}
-        {% for my_page in sorted_pages %}
-          {% if my_page.title %}
-          <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-    </nav>
+    {% include nav.html %}
 </header>
