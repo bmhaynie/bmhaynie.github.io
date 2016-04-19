@@ -1,0 +1,23 @@
+header {
+	@include outer-container;
+	background: #f1f1f1;
+	.logo {
+		@include span-columns(6);
+		a {
+			img {
+				height: 80px;
+				width: auto;
+			}
+		}
+	}
+	nav {
+		@include span-columns(6);
+		ul {
+			li {
+				display: inline;
+				a {
+				}
+			}
+		}
+	}
+}
