@@ -6,14 +6,14 @@ order: 1
 ---
 
 <!-- show beer names and links -->
-<!-- <ul>
+<ul>
 	{% for beer in site.beer %}
 		<li><a href="{{ beer.url | prepend: site.baseurl }}">{{ beer.title }}</a></li>
 	{% endfor %}
-</ul> -->
+</ul>
 
 <!-- show beer details -->
-<section>
+<!-- <section>
 	<ul>
 		{% for beer in site.beer %}
 			<li class="test">
@@ -28,4 +28,4 @@ order: 1
 			</li>
 		{% endfor %}
 	</ul>
-</section>
+</section> -->
