@@ -1,8 +1,26 @@
 <footer>
-  Title: {{ site.title }}<br>
-  Description: {{ site.description }}<br>
-  E-mail: {{ site.email }}<br>
-  Facebook: {{ site.facebook_username }}<br>
-  Twitter: {{ site.twitter_username }}<br>
-  Instagram: {{ site.instagram_username }}
+	<section>
+		<article>
+			<ul class="feature-descriptions">
+				{% for beer in site.beer %}
+					{% if beer.on-tap == "True" %}
+						<li><a href="{{ beer.url | prepend: site.baseurl }}">{{ beer.title }}</a></li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+			<h2 class="feature-title">What's On Tap</h2>
+		</article>
+		<article>
+			<ul class="feature-descriptions">
+				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+			</ul>
+			<h2 class="feature-title">Upcoming Events</h2>
+		</article>
+		<article>
+			<ul class="feature-descriptions">
+				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+			</ul>
+			<h2 class="feature-title">Food Trucks</h2>
+		</article>
+	</section>
 </footer>

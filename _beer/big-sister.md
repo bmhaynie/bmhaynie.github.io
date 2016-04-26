@@ -7,5 +7,6 @@ beer-sourness: "None"
 beer-style: "American Double IPA"
 layout: beer
 title:  "Big Sister"
+on-tap: "True"
 ---
 This beer is our interpretation of a Double IPA, it’s loaded with hops and fits within the ABV range for a standard example. The IBUs are there but the bitterness is subdued and thanks to a touch of oats in the recipe it drinks incredibly smooth.
