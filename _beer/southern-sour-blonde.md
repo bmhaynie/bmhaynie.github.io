@@ -6,5 +6,6 @@ beer-gravity: ""
 beer-sourness: ""
 beer-style: "Sour"
 layout: beer
+on-tap: "False"
 title:  "Southern Sour Blonde"
 ---

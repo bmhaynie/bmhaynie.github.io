@@ -6,5 +6,6 @@ beer-gravity: ""
 beer-sourness: ""
 beer-style: "American Red Ale"
 layout: beer
+on-tap: "False"
 title:  "Special B"
 ---

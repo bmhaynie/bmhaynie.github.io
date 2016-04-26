@@ -6,5 +6,6 @@ beer-gravity: ""
 beer-sourness: ""
 beer-style: "Pale Ale"
 layout: beer
+on-tap: "False"
 title:  "Lake View"
 ---

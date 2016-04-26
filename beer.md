@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Beer
+<!-- title: Beer -->
 permalink: /beer/
 order: 1
 ---

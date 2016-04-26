@@ -6,5 +6,6 @@ beer-gravity: ""
 beer-sourness: ""
 beer-style: "IPA"
 layout: beer
+on-tap: "False"
 title:  "McGill Avenue"
 ---

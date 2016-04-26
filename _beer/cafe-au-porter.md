@@ -6,5 +6,6 @@ beer-gravity: ""
 beer-sourness: ""
 beer-style: "Porter"
 layout: beer
+on-tap: "False"
 title:  "Cafe au Porter"
 ---

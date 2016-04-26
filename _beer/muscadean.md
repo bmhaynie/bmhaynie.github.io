@@ -6,5 +6,6 @@ beer-gravity: ""
 beer-sourness: ""
 beer-style: "Imperial Red Ale"
 layout: beer
+on-tap: "True"
 title:  "Muscadean"
 ---

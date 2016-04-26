@@ -6,5 +6,6 @@ beer-gravity: ""
 beer-sourness: ""
 beer-style: "Barrel Fermented Saison Ale"
 layout: beer
+on-tap: "True"
 title:  "Norway Hill"
 ---

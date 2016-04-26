@@ -6,5 +6,6 @@ beer-gravity: ""
 beer-sourness: ""
 beer-style: "Stout"
 layout: beer
+on-tap: "False"
 title:  "Late Addition"
 ---

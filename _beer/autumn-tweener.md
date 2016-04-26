@@ -6,5 +6,6 @@ beer-gravity: ""
 beer-sourness: ""
 beer-style: "Saison"
 layout: beer
+on-tap: "False"
 title:  "Autumn Tweener"
 ---

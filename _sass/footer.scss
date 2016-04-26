@@ -3,6 +3,7 @@ footer {
 	bottom: 0;
 	text-align: center;
 	width: 100%;
+	// z-index: 2;
 	article {
 		background: #ffffff;
 		cursor: pointer;
@@ -21,8 +22,12 @@ footer {
 			display: none;
 			list-style: none;
 			margin: 0;
-			padding: 10px;
-			text-align: center;
+			padding: 10px 10px 0 10px;
+			text-align: left;
+			li {
+				a {
+				}
+			}
 		}
 	}
 }

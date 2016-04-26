@@ -6,5 +6,6 @@ beer-gravity: ""
 beer-sourness: ""
 beer-style: "American Session Ale"
 layout: beer
+on-tap: "False"
 title:  "Quick Learner"
 ---

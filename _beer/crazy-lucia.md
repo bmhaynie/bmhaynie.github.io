@@ -6,5 +6,6 @@ beer-gravity: ""
 beer-sourness: ""
 beer-style: "Belgian Blonde Ale"
 layout: beer
+on-tap: "False"
 title:  "Crazy Lucia"
 ---

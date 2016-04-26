@@ -6,5 +6,6 @@ beer-gravity: ""
 beer-sourness: ""
 beer-style: "Smoked Saison"
 layout: beer
+on-tap: "True"
 title:  "Philips Revenge"
 ---

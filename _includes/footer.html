@@ -4,23 +4,23 @@
 			<ul class="feature-descriptions">
 				{% for beer in site.beer %}
 					{% if beer.on-tap == "True" %}
-						<li><a href="{{ beer.url | prepend: site.baseurl }}">{{ beer.title }}</a></li>
+						<li><a href="{{ beer.url | prepend: site.baseurl }}">{{ beer.title }}<span style="float: right;">{{ beer.beer-abv }}</span></a></li>
 					{% endif %}
 				{% endfor %}
 			</ul>
-			<h2 class="feature-title">What's On Tap</h2>
+			<h2 class="feature-title">On Tap</h2>
 		</article>
 		<article>
 			<ul class="feature-descriptions">
 				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
 			</ul>
-			<h2 class="feature-title">Upcoming Events</h2>
+			<h2 class="feature-title">Events</h2>
 		</article>
 		<article>
 			<ul class="feature-descriptions">
 				<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
 			</ul>
-			<h2 class="feature-title">Food Trucks</h2>
+			<h2 class="feature-title">Food</h2>
 		</article>
 	</section>
 </footer>
