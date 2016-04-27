@@ -1,6 +1,6 @@
 ---
 layout: page
-<!-- title: Events -->
+title: Events
 permalink: /events/
 order: 2
 ---
