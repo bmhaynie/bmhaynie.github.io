@@ -1,11 +1,15 @@
 ---
-beer-abv: "5.8%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "Sour"
+abv: 5.8%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "False"
-title:  "Caroline"
+modal-id: caroline
+name: Caroline
+on-tap: no
+sourness: 
+style: Sour
+thumbnail: beer-preview.png
 ---

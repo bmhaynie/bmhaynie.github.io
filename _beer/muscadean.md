@@ -1,11 +1,15 @@
 ---
-beer-abv: "9.0%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "Imperial Red Ale"
+abv: 9.0%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "True"
-title:  "Muscadean"
+modal-id: muscadean
+name:  Muscadean
+on-tap: yes
+sourness: 
+style: Imperial Red Ale
+thumbnail: beer-preview.png
 ---

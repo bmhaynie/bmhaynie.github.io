@@ -1,11 +1,15 @@
 ---
-beer-abv: "6.7%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "IPA"
+abv: 6.7%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "False"
-title:  "McGill Avenue"
+modal-id: mcgill-avenue
+name: McGill Avenue
+on-tap: no
+sourness: 
+style: IPA
+thumbnail: beer-preview.png
 ---

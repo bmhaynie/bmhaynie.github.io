@@ -1,11 +1,15 @@
 ---
-beer-abv: "6.2%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "Stout"
+abv: 6.2%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "False"
-title:  "Late Addition"
+modal-id: late-addition
+name: Late Addition
+on-tap: no
+sourness: 
+style: Stout
+thumbnail: beer-preview.png
 ---

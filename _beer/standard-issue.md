@@ -1,11 +1,15 @@
 ---
-beer-abv: "6.5%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "Stout"
+abv: 6.5%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "False"
-title:  "Standard Issue"
+modal-id: standard-issue
+name: Standard Issue
+on-tap: no
+sourness: 
+style: Stout
+thumbnail: beer-preview.png
 ---

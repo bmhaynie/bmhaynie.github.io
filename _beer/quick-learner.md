@@ -1,11 +1,15 @@
 ---
-beer-abv: "4.5%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "American Session Ale"
+abv: 4.5%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "False"
-title:  "Quick Learner"
+modal-id: quick-learner
+name: Quick Learner
+on-tap: no
+sourness: 
+style: American Session Ale
+thumbnail: beer-preview.png
 ---

@@ -1,11 +1,15 @@
 ---
-beer-abv: "5.1%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "Saison"
+abv: 5.1%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "False"
-title:  "Tweener"
+modal-id: tweener
+name: Tweener
+on-tap: no
+sourness: 
+style: Saison
+thumbnail: beer-preview.png
 ---

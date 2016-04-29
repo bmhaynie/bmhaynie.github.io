@@ -1,11 +1,15 @@
 ---
-beer-abv: "6.0%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "Pale Ale"
+abv: 6.0%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "False"
-title:  "Lake View"
+modal-id: lake-view
+name: Lake View
+on-tap: no
+sourness: 
+style: Pale Ale
+thumbnail: beer-preview.png
 ---

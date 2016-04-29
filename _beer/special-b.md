@@ -1,11 +1,15 @@
 ---
-beer-abv: "6.5%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "American Red Ale"
+abv: 6.5%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "False"
-title:  "Special B"
+modal-id: special-b
+name: Special B
+on-tap: no
+sourness: 
+style: American Red Ale
+thumbnail: beer-preview.png
 ---

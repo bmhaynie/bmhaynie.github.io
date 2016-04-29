@@ -1,11 +1,15 @@
 ---
-beer-abv: "6.5%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "Porter"
+abv: 6.5%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "False"
-title:  "Cafe au Porter"
+modal-id: cafe-au-porter
+name: Cafe au Porter
+on-tap: no
+sourness: 
+style: Porter
+thumbnail: beer-preview.png
 ---

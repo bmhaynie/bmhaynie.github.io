@@ -1,11 +1,15 @@
 ---
-beer-abv: "6.3%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "Belgian Pale Ale"
+abv: 6.3%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "False"
-title:  "Stateside"
+modal-id: stateside
+name: Stateside
+on-tap: no
+sourness: 
+style: Belgian Pale Ale
+thumbnail: beer-preview.png
 ---

@@ -1,11 +1,15 @@
 ---
-beer-abv: "6.1%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "Belgian Blonde Ale"
+abv: 6.1%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "False"
-title:  "Crazy Lucia"
+modal-id: crazy-lucia
+name: Crazy Lucia
+on-tap: no
+sourness: 
+style: Belgian Blonde Ale
+thumbnail: beer-preview.png
 ---

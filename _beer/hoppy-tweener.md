@@ -1,11 +1,15 @@
 ---
-beer-abv: "7.0%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "Saison"
+abv: 7.0%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "True"
-title:  "Hoppy Tweener"
+modal-id: hoppy-tweener
+name: Hoppy Tweener
+on-tap: yes
+sourness: 
+style: Saison
+thumbnail: beer-preview.png
 ---

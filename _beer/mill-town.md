@@ -1,11 +1,15 @@
 ---
-beer-abv: "6.2%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "Brown Ale"
+abv: 6.2%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "False"
-title:  "Mill Town"
+modal-id: mill-town
+name: Mill Town
+on-tap: no
+sourness: 
+style: Brown Ale
+thumbnail: beer-preview.png
 ---

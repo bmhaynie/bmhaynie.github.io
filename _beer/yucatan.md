@@ -1,11 +1,15 @@
 ---
-beer-abv: "8.5%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "Stout"
+abv: 8.5%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "False"
-title:  "Yucatan"
+modal-id: yucatan
+name: Yucatan
+on-tap: no
+sourness: 
+style: Stout
+thumbnail: beer-preview.png
 ---

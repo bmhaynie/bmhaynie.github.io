@@ -1,11 +1,15 @@
 ---
-beer-abv: "6.5%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "IPA"
+abv: 6.5%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "True"
-title:  "Little Sis"
+modal-id: little-sis
+name: Little Sis
+on-tap: yes
+sourness: 
+style: IPA
+thumbnail: beer-preview.png
 ---

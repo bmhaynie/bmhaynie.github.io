@@ -1,11 +1,15 @@
 ---
-beer-abv: "7.2%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "Smoked Saison"
+abv: 7.2%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "True"
-title:  "Philips Revenge"
+modal-id: philips-revenge
+name: Philips Revenge
+on-tap: yes
+sourness: 
+style: Smoked Saison
+thumbnail: beer-preview.png
 ---

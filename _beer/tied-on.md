@@ -1,11 +1,15 @@
 ---
-beer-abv: "8.9%"
-beer-availability: "Keg"
-beer-bitterness: ""
-beer-gravity: ""
-beer-sourness: ""
-beer-style: "Belgian Tripel Ale"
+abv: 8.9%
+availability: Keg
+bitterness: 
+description:
+gravity: 
+img: beer.png
 layout: beer
-on-tap: "False"
-title:  "Tied On"
+modal-id: tied-on
+name: Tied On
+on-tap: no
+sourness: 
+style: Belgian Tripel Ale
+thumbnail: beer-preview.png
 ---
