@@ -1,21 +1,19 @@
----
-
-@import "variables.less";
-@import "mixins.less";
+@import 'variables';
+@import 'mixins';
 
 // Global Components
 
 body {
 	overflow-x: hidden;
-	.body-font;
+	@include body-font;
 }
 
 .text-muted {
-	color: @gray;
+	color: $gray;
 }
 
 .text-primary {
-	color: @brand-primary;
+	color: $brand-primary;
 }
 
 p {
@@ -36,18 +34,18 @@ a.active {
 }
 
 a {
-	color: @brand-primary;
+	color: $brand-primary;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-	color: darken(@brand-primary, 10%);
+	color: darken($brand-primary, 10%);
 }
 
 h1, h2, h3, h4, h5, h6 {
-	.heading-font;
+	@include heading-font;
 	font-weight: 700;
 }
 
@@ -56,24 +54,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-light-gray {
-	background-color: @gray-lighter;
+	background-color: $gray-lighter;
 }
 
 .bg-darkest-gray {
-	background-color: @gray-darkest;
+	background-color: $gray-darkest;
 }
 
 // Restyled Primary Buttons
 
 .btn-primary {
-	.button-variant(white; @brand-primary; @brand-primary);
-	.heading-font;
+	@include button-variant(white, $brand-primary, $brand-primary);
+	@include heading-font;
 	font-weight: 700;
 }
 
 .btn-xl {
-	.button-variant(white; @brand-primary; @brand-primary);
-	.heading-font;
+	@include button-variant(white, $brand-primary, $brand-primary);
+	@include heading-font;
 	font-weight: 700;
 	border-radius: 3px;
 	font-size: 18px;
@@ -83,42 +81,43 @@ h1, h2, h3, h4, h5, h6 {
 // Custom Navigation Bar
 
 .navbar-default {
-	background-color: @gray-darkest;
+	background-color: $gray-darkest;
 	border-color: transparent;
 	.navbar-brand {
-		color: @brand-primary;
-		.script-font;
+		color: $brand-primary;
+		@include script-font;
         &:hover,
         &:focus,
         &:active,
         &.active {
-        	color: darken(@brand-primary, 10%);
+        	color: darken($brand-primary, 10%);
         }
 	}
 	.navbar-collapse {
 		border-color: fade(white, 2%);
 	}
 	.navbar-toggle {
-		background-color: @brand-primary;
-		border-color: @brand-primary;
+		background-color: $brand-primary;
+		border-color: $brand-primary;
 		.icon-bar {
 			background-color: white;
 		}
 		&:hover,
 		&:focus {
-			background-color: @brand-primary;
+			background-color: $brand-primary;
 		}
 	}
     .nav {
     	li {
     		a {
-    			.heading-font;
+				font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				text-transform: uppercase;
     			font-weight: 400;
     			letter-spacing: 1px;
     			color: white;
     			&:hover,
     			&:focus {
-    				color: @brand-primary;
+    				color: $brand-primary;
     				outline: none;
     			}
     		}
@@ -127,12 +126,12 @@ h1, h2, h3, h4, h5, h6 {
 	.navbar-nav>.active>a {
 		border-radius: 0;
 		color: white;
-		background-color: @brand-primary;
+		background-color: $brand-primary;
 	}
 	.navbar-nav>.active>a:hover,
 	.navbar-nav>.active>a:focus {
 		color: white;
-		background-color: darken(@brand-primary, 10%);
+		background-color: darken($brand-primary, 10%);
 	}
 }
 
@@ -155,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 		}
     }
     .navbar-default.navbar-shrink {
-    	background-color: @gray-darkest;
+    	background-color: $gray-darkest;
         padding: 10px 0;
 		.navbar-brand {
 	        font-size: 1.5em;
@@ -168,21 +167,21 @@ header {
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
-	.background-cover;
+	@include background-cover;
 	text-align: center;
 	color: white;
 	.intro-text {
 		padding-top: 100px;
 		padding-bottom: 50px;
 		.intro-lead-in {
-			.serif-font;
+			@include serif-font;
 			font-style: italic;
 			font-size: 22px;
 			line-height: 22px;
 			margin-bottom: 25px;
 		}
 		.intro-heading {
-			.heading-font;
+			@include heading-font;
 			font-weight: 700;
 			font-size: 50px;
 			line-height: 50px;
@@ -197,14 +196,14 @@ header {
 			padding-top: 300px;
 			padding-bottom: 200px;
 			.intro-lead-in {
-				.serif-font;
+				@include serif-font;
 				font-style: italic;
 				font-size: 40px;
 				line-height: 40px;
 				margin-bottom: 25px;
 			}
 			.intro-heading {
-				.heading-font;
+				@include heading-font;
 				font-weight: 700;
 				font-size: 75px;
 				line-height: 75px;
@@ -225,7 +224,7 @@ section {
     }
     h3.section-subheading {
 		font-size: 16px;
-		.serif-font;
+		@include serif-font;
 		text-transform: none;
 		font-style: italic;
 		font-weight: 400;
@@ -258,7 +257,7 @@ section {
             max-width: 400px;
             margin: 0 auto;
             .portfolio-hover {
-                background: fade(@brand-primary, 90%);
+                background: fade($brand-primary, 90%);
                 position: absolute;
                 width: 100%;
                 height: 100%;
@@ -299,7 +298,7 @@ section {
         		margin: 0;
         	}
         	p {
-        		.serif-font;
+        		@include serif-font;
         		font-style: italic;
         		font-size: 16px;
         		margin: 0;
@@ -373,7 +372,7 @@ section {
 	        height: 80px;
             position: absolute;
             z-index: 100;
-            background-color: @brand-primary;
+            background-color: $brand-primary;
             color: white;
             border-radius: 100%;
             border: 7px solid #f1f1f1;
@@ -532,7 +531,7 @@ aside.clients {
 // Contact Section
 
 section#contact {
-	background-color: @gray-darkest;
+	background-color: $gray-darkest;
 	background-image: url('../img/map-image.png');
 	background-position: center;
 	background-repeat: no-repeat;
@@ -553,31 +552,31 @@ section#contact {
 		}
 	}
 	.form-control:focus {
-		border-color: @brand-primary;
+		border-color: $brand-primary;
 		box-shadow: none;
 	}
 	::-webkit-input-placeholder {
-	   .heading-font;
+   	@include heading-font;
 	   font-weight: 700;
-	   color: @placeholder-text;
+	   color: $placeholder-text;
 	}
 	:-moz-placeholder { /* Firefox 18- */
-	   .heading-font;
+   	@include heading-font;
 	   font-weight: 700;
-	   color: @placeholder-text;
+	   color: $placeholder-text;
 	}
 	::-moz-placeholder {  /* Firefox 19+ */
-	   .heading-font;
+   	@include heading-font;
 	   font-weight: 700;
-	   color: @placeholder-text;
+	   color: $placeholder-text;
 	}
 	:-ms-input-placeholder {  
-	   .heading-font;
+   	@include heading-font;
 	   font-weight: 700;
-	   color: @placeholder-text;
+	   color: $placeholder-text;
 	}
 	.text-danger {
-		color: @brand-danger;
+		color: $brand-danger;
 	}
 }
 
@@ -588,13 +587,13 @@ footer {
 	text-align: center;
 	span.copyright {
 		line-height: 40px;
-		.heading-font;
+		@include heading-font;
 		text-transform: none;
 	}
 	ul.quicklinks {
 		margin-bottom: 0;
 		line-height: 40px;
-		.heading-font;
+		@include heading-font;
 		text-transform: none;
 	}
 }
@@ -606,7 +605,7 @@ ul.social-buttons {
 	li {
 		a {
 			display: block;
-			background-color: @gray-darkest;
+			background-color: $gray-darkest;
 			height: 40px;
 			width: 40px;
 			border-radius: 100%;
@@ -620,7 +619,7 @@ ul.social-buttons {
 	        &:hover,
 	        &:focus,
 	        &:active {
-				background-color: @brand-primary;
+				background-color: $brand-primary;
 	        }
 		}
 	}
@@ -652,7 +651,7 @@ ul.social-buttons {
 		}
 		p.item-intro {
 			margin: 20px 0 30px;
-			.serif-font;
+			@include serif-font;
 			font-style: italic;
 			font-size: 16px;
 		}
@@ -679,7 +678,7 @@ ul.social-buttons {
             height:75px;
             width:1px;
             margin-left:35px;
-            background-color:@gray-darkest;
+            background-color:$gray-darkest;
             transform: rotate(45deg);
             -ms-transform: rotate(45deg);
             /* IE 9 */
@@ -689,7 +688,7 @@ ul.social-buttons {
             .rl {
                 height:75px;
                 width:1px;
-                background-color:@gray-darkest;
+                background-color:$gray-darkest;
                 transform: rotate(90deg);
                 -ms-transform: rotate(90deg);
                 /* IE 9 */
@@ -709,12 +708,12 @@ ul.social-buttons {
 
 ::-moz-selection {
     text-shadow: none;
-    background: @brand-primary;
+    background: $brand-primary;
 }
 
 ::selection {
     text-shadow: none;
-    background: @brand-primary;
+    background: $brand-primary;
 }
 
 img::selection {
@@ -726,5 +725,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: @brand-primary;
+    webkit-tap-highlight-color: $brand-primary;
 }
