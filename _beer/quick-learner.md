@@ -1,11 +1,11 @@
 ---
 abv: 4.5%
+alt:
 availability: Keg
 bitterness: 
 description:
 gravity: 
 img: beer.png
-layout: beer
 modal-id: quick-learner
 name: Quick Learner
 on-tap: no

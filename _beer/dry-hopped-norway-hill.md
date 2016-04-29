@@ -1,11 +1,11 @@
 ---
 abv: 6.4%
+alt:
 availability: Keg
 bitterness: 
 description:
 gravity: 
 img: beer.png
-layout: beer
 modal-id: dry-hopped-norway-hill
 on-tap: no
 sourness: 

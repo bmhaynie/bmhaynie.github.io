@@ -1,11 +1,11 @@
 ---
 abv: 5.8%
+alt:
 availability: Keg
 bitterness: 
 description:
 gravity: 
 img: beer.png
-layout: beer
 modal-id: caroline
 name: Caroline
 on-tap: no

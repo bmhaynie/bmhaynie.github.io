@@ -1,11 +1,11 @@
 ---
 abv: 5.1%
+alt: 
 availability: Keg
 bitterness: 
 description:
 gravity: 
 img: beer.png
-layout: beer
 modal-id: tweener
 name: Tweener
 on-tap: no

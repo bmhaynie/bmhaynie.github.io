@@ -1,11 +1,11 @@
 ---
 abv: 6.5%
+alt:
 availability: Keg
 bitterness: 
 description:
 gravity: 
 img: beer.png
-layout: beer
 modal-id: special-b
 name: Special B
 on-tap: no

@@ -1,11 +1,11 @@
 ---
 abv: 6.3%
+alt:
 availability: Keg
 bitterness: 
 description:
 gravity: 
 img: beer.png
-layout: beer
 modal-id: stateside
 name: Stateside
 on-tap: no

@@ -1,11 +1,11 @@
 ---
 abv: 6.2%
+alt:
 availability: Keg
 bitterness: 
 description:
 gravity: 
 img: beer.png
-layout: beer
 modal-id: late-addition
 name: Late Addition
 on-tap: no

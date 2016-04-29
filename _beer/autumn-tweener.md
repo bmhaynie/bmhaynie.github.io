@@ -1,11 +1,11 @@
 ---
 abv: 5.2%
+alt:
 availability: Keg
 bitterness: 
 description:
 gravity: 
 img: beer.png
-layout: beer
 modal-id: autumn-tweener
 name: Autumn Tweener
 on-tap: no

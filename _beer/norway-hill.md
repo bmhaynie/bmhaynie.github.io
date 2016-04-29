@@ -1,11 +1,11 @@
 ---
 abv: 6.2%
+alt:
 availability: Bottle
 bitterness: 
 description:
 gravity: 
 img: beer.png
-layout: beer
 modal-id: norway-hill
 name: Norway Hill
 on-tap: yes

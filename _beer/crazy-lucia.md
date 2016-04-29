@@ -1,11 +1,11 @@
 ---
 abv: 6.1%
+alt:
 availability: Keg
 bitterness: 
 description:
 gravity: 
 img: beer.png
-layout: beer
 modal-id: crazy-lucia
 name: Crazy Lucia
 on-tap: no

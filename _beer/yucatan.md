@@ -1,11 +1,11 @@
 ---
 abv: 8.5%
+alt: 
 availability: Keg
 bitterness: 
 description:
 gravity: 
 img: beer.png
-layout: beer
 modal-id: yucatan
 name: Yucatan
 on-tap: no
