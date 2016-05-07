@@ -1,9 +1,10 @@
 header {
-	background-image: url('../img/header-bg.jpg');
-	background-repeat: none;
-	background-attachment: scroll;
-	background-position: center center;
-	@include background-cover;
+	background-color: $gray-darkest;
+	// background-image: url('../img/header-bg.jpg');
+	// background-repeat: none;
+	// background-attachment: scroll;
+	// background-position: center center;
+	// @include background-cover;
 	text-align: center;
 	color: white;
 	.intro-text {
@@ -29,7 +30,7 @@ header {
 @media(min-width:768px) {
 	header {
 		.intro-text {
-			padding-top: 300px;
+			padding-top: 250px;
 			padding-bottom: 200px;
 			.intro-lead-in {
 				@include serif-font;
@@ -39,11 +40,27 @@ header {
 				margin-bottom: 25px;
 			}
 			.intro-heading {
-				@include heading-font;
-				font-weight: 700;
-				font-size: 75px;
-				line-height: 75px;
-				margin-bottom: 50px;
+				@include body-font;
+				font-weight: 100;
+				font-size: 60px;
+				line-height: 60px;
+				// margin-bottom: 50px;
+				position: relative;
+				span {
+					@include serif-font;
+					color: $brand-primary;
+					font-size: 44px;
+					font-weight: 400;
+				}
+				// &:after {
+				// 	content: '';
+				// 	display: block;
+				// 	background: $brand-primary;
+				// 	height: 2px;
+				// 	max-width: 100px;
+				// 	width: 100%;
+				// 	margin: 0 auto;
+				// }
 			}
 		}
 	}

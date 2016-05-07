@@ -7,6 +7,11 @@
 
 # Site settings
 title: High Branch Brewing Co.
+address: 325 McGill Ave Suite 148
+city: Concord
+state: NC
+zip: 28027
+phone: (704) 706-3807
 email: info@highbranchbrewing.com
 description: > # this means to ignore newlines until "baseurl:"
   Site description

@@ -6,6 +6,8 @@
 	.navbar-brand {
 		color: $brand-primary;
 		@include heading-font;
+		font-size: 17px;
+		font-weight: 300;
         &:hover,
         &:focus,
         &:active,
@@ -38,6 +40,7 @@
     		a {
 				font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 				text-transform: uppercase;
+				font-size: 11px;
     			font-weight: 400;
     			letter-spacing: 1px;
     			color: white;
@@ -64,13 +67,12 @@
 @media(min-width:768px) {
     .navbar-default {
     	background-color: transparent;
-        padding: 25px 0;
+        padding: 10px 0;
         -webkit-transition: padding 0.3s;
         -moz-transition: padding 0.3s;
         transition: padding 0.3s;
         border: none;
 	    .navbar-brand {
-	        font-size: 2em;
 	        -webkit-transition: all 0.3s;
 	        -moz-transition: all 0.3s;
 	        transition: all 0.3s;
@@ -81,9 +83,7 @@
     }
     .navbar-default.navbar-shrink {
     	background-color: $gray-darkest;
-        padding: 10px 0;
 		.navbar-brand {
-	        font-size: 1.5em;
 	    }    
 	}
 }

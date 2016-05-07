@@ -10,30 +10,31 @@
             <div class="col-md-3">
                 <h3>Our Location</h3>
 
-                <p>High Branch Brewing Co.<br>
-                325 McGill Ave Suite 148<br>
-                Concord, NC 28027</p>
+                <p>{{ site.title }}<br>
+                {{ site.address }}<br>
+                {{ site.city }}, {{ site.state }} {{ site.zip }}</p>
 
-                <p>Phone: (704) 706-3807<br>
-                E-mail: info@highbranchbrewing.com</p>
+                <p>Phone:<br><a href="tel:+17047063807">{{ site.phone }}</a></p>
+                <p>E-mail:<br><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
 
-                <p>Come check out the rustic brick, tall ceilings, and exposed beams! We're located at the Gibson Mill in Concord, NC. Our taproom is now open so stop by and say hello.</p>
+                <!-- <p>Come check out the rustic brick, tall ceilings, and exposed beams! We're located at the Gibson Mill in Concord, NC. Our taproom is now open so stop by and say hello.</p> -->
             </div>
             <div class="col-md-3">
                 <h3>Taproom Hours</h3>
 
-                <p>Sunday-Thursday: Closed<br>
-                Friday: 4-10PM<br>
-                Saturday: 2-10PM</p>
+                <p>Sunday: Closed<br>
+                Monday: Closed<br>
+                Tuesday: Closed<br>
+                Wednesday: Closed<br>
+                Thursday: 4-9pm<br>
+                Friday: 4-10pm<br>
+                Saturday: 2-10pm</p>
 
-                <h3>Parties & Events</h3>
+                <!-- <h3>Follow Us</h3>
 
-                <p>Did you know you can rent our space? Taproom is available for rent Sunday-Thursday. Send us a message or e-mail if you're interested!</p>
-
-                <h3>Follow Us</h3>
-
-                <p>Facebook.com/HighBranchBrewing<br>
-                Twitter.com/highbranchbeer</p>
+                <p><a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank">Facebook.com/{{ site.facebook_username }}<br>
+                <a href="https://www.twitter.com/{{ site.twitter_username }}" target="_blank">Twitter.com/{{ site.twitter_username }}<br>
+                <a href="https://www.instagram.com/{{ site.instagram_username }}" target="_blank">Instagram.com/{{ site.instagram_username}}</a></p> -->
 
             </div>
             <div class="col-md-6">
@@ -61,7 +62,7 @@
                         <div class="clearfix"></div>
                         <div class="col-lg-12">
                             <div id="success"></div>
-                            <button type="submit" class="btn btn-xl">Send Message</button>
+                            <button type="submit" class="btn">Send Message</button>
                         </div>
                     </div>
                 </form>
