@@ -8,7 +8,7 @@ gravity:
 img: beer.png
 modal-id: mill-town
 name: Mill Town
-on-tap: no
+on-tap: nope
 sourness: 
 style: Brown Ale
 thumbnail: beer-preview.png

@@ -8,7 +8,7 @@ gravity:
 img: beer.png
 modal-id: quick-learner
 name: Quick Learner
-on-tap: no
+on-tap: nope
 sourness: 
 style: American Session Ale
 thumbnail: beer-preview.png

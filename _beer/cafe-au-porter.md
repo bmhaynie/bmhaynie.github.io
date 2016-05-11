@@ -8,7 +8,7 @@ gravity:
 img: beer.png
 modal-id: cafe-au-porter
 name: Cafe au Porter
-on-tap: no
+on-tap: nope
 sourness: 
 style: Porter
 thumbnail: beer-preview.png

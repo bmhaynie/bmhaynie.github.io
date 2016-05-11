@@ -7,7 +7,7 @@ description:
 gravity: 
 img: beer.png
 modal-id: dry-hopped-norway-hill
-on-tap: no
+on-tap: nope
 sourness: 
 style: Saison
 thumbnail: beer-preview.png

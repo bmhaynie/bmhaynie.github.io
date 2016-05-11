@@ -8,7 +8,7 @@ gravity:
 img: beer.png
 modal-id: standard-issue
 name: Standard Issue
-on-tap: no
+on-tap: nope
 sourness: 
 style: Stout
 thumbnail: beer-preview.png

@@ -8,7 +8,7 @@ gravity:
 img: beer.png
 modal-id: hail-the-brown-ale
 name: Hail the Brown Ale
-on-tap: no
+on-tap: nope
 sourness: 
 style: Brown Ale
 thumbnail: beer-preview.png

@@ -8,7 +8,7 @@ gravity:
 img: beer.png
 modal-id: norway-hill
 name: Norway Hill
-on-tap: yes
+on-tap: yup
 sourness: 
 style: Barrel Fermented Saison Ale
 thumbnail: beer-preview.png

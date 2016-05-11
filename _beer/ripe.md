@@ -8,7 +8,7 @@ gravity:
 img: beer.png
 modal-id: ripe
 name: Ripe
-on-tap: yes
+on-tap: yup
 sourness: 
 style: Saison
 thumbnail: beer-preview.png

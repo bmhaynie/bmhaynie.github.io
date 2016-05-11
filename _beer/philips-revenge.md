@@ -8,7 +8,7 @@ gravity:
 img: beer.png
 modal-id: philips-revenge
 name: Philips Revenge
-on-tap: yes
+on-tap: yup
 sourness: 
 style: Smoked Saison
 thumbnail: beer-preview.png

@@ -8,7 +8,7 @@ gravity:
 img: beer.png
 modal-id: mcgill-avenue
 name: McGill Avenue
-on-tap: no
+on-tap: nope
 sourness: 
 style: IPA
 thumbnail: beer-preview.png

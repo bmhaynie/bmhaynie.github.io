@@ -8,7 +8,7 @@ gravity:
 img: beer.png
 modal-id: stateside
 name: Stateside
-on-tap: no
+on-tap: nope
 sourness: 
 style: Belgian Pale Ale
 thumbnail: beer-preview.png

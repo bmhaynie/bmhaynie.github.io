@@ -8,7 +8,7 @@ gravity:
 img: beer.png
 modal-id: yucatan
 name: Yucatan
-on-tap: no
+on-tap: nope
 sourness: 
 style: Stout
 thumbnail: beer-preview.png

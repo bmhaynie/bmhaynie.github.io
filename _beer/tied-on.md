@@ -8,7 +8,7 @@ gravity:
 img: beer.png
 modal-id: tied-on
 name: Tied On
-on-tap: no
+on-tap: nope
 sourness: 
 style: Belgian Tripel Ale
 thumbnail: beer-preview.png

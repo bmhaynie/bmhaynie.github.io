@@ -8,7 +8,7 @@ gravity:
 img: beer.png
 modal-id: muscadean
 name:  Muscadean
-on-tap: yes
+on-tap: yup
 sourness: 
 style: Imperial Red Ale
 thumbnail: beer-preview.png

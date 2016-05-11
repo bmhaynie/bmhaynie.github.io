@@ -8,7 +8,7 @@ gravity:
 img: beer.png
 modal-id: southern-sour-blonde
 name: Southern Sour Blonde
-on-tap: no
+on-tap: nope
 sourness: 
 style: Sour
 thumbnail: beer-preview.png
