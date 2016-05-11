@@ -11,5 +11,4 @@ name: Standard Issue
 on-tap: nope
 sourness: 
 style: Stout
-thumbnail: beer-preview.png
 ---

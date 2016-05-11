@@ -11,5 +11,4 @@ name: Late Addition
 on-tap: nope
 sourness: 
 style: Stout
-thumbnail: beer-preview.png
 ---

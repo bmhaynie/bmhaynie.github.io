@@ -11,5 +11,4 @@ name: Quick Learner
 on-tap: nope
 sourness: 
 style: American Session Ale
-thumbnail: beer-preview.png
 ---

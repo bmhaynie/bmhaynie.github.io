@@ -11,5 +11,4 @@ name: Cafe au Porter
 on-tap: nope
 sourness: 
 style: Porter
-thumbnail: beer-preview.png
 ---

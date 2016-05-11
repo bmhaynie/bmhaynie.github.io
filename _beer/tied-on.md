@@ -11,5 +11,4 @@ name: Tied On
 on-tap: nope
 sourness: 
 style: Belgian Tripel Ale
-thumbnail: beer-preview.png
 ---

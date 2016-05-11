@@ -11,5 +11,4 @@ name: Lake View
 on-tap: nope
 sourness: 
 style: Pale Ale
-thumbnail: beer-preview.png
 ---

@@ -5,11 +5,10 @@ availability: Keg
 bitterness: 
 description:
 gravity: 
-img: beer.png
+img: caroline.jpg
 modal-id: caroline
 name: Caroline
-on-tap: nope
+on-tap: yup
 sourness: 
 style: Sour
-thumbnail: beer-preview.png
 ---

@@ -8,8 +8,7 @@ gravity:
 img: beer.png
 modal-id: autumn-tweener
 name: Autumn Tweener
-on-tap: yup
+on-tap: nope
 sourness: 
 style: Saison
-thumbnail: beer-preview.png
 ---

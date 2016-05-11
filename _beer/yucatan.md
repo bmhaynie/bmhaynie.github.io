@@ -5,11 +5,10 @@ availability: Keg
 bitterness: 
 description:
 gravity: 
-img: beer.png
+img: yucatan.jpg
 modal-id: yucatan
 name: Yucatan
-on-tap: nope
+on-tap: yup
 sourness: 
 style: Stout
-thumbnail: beer-preview.png
 ---

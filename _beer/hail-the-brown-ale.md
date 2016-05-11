@@ -11,5 +11,4 @@ name: Hail the Brown Ale
 on-tap: nope
 sourness: 
 style: Brown Ale
-thumbnail: beer-preview.png
 ---

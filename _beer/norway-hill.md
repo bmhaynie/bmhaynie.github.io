@@ -5,11 +5,10 @@ availability: Bottle
 bitterness: 
 description:
 gravity: 
-img: beer.png
+img: norway-hill.jpg
 modal-id: norway-hill
 name: Norway Hill
 on-tap: yup
 sourness: 
 style: Barrel Fermented Saison Ale
-thumbnail: beer-preview.png
 ---

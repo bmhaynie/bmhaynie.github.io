@@ -11,5 +11,4 @@ name: McGill Avenue
 on-tap: nope
 sourness: 
 style: IPA
-thumbnail: beer-preview.png
 ---

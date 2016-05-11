@@ -5,11 +5,10 @@ availability: Keg
 bitterness: 
 description:
 gravity: 
-img: beer.png
+img: ripe.jpg
 modal-id: ripe
 name: Ripe
 on-tap: yup
 sourness: 
 style: Saison
-thumbnail: beer-preview.png
 ---

@@ -11,5 +11,4 @@ name: Mill Town
 on-tap: nope
 sourness: 
 style: Brown Ale
-thumbnail: beer-preview.png
 ---

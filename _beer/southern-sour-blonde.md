@@ -5,11 +5,10 @@ availability: Keg
 bitterness: 
 description:
 gravity: 
-img: beer.png
+img: southern-sour-blonde.jpg
 modal-id: southern-sour-blonde
 name: Southern Sour Blonde
-on-tap: nope
+on-tap: yup
 sourness: 
 style: Sour
-thumbnail: beer-preview.png
 ---

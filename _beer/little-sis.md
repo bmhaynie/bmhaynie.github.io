@@ -8,8 +8,7 @@ gravity:
 img: beer.png
 modal-id: little-sis
 name: Little Sis
-on-tap: yup
+on-tap: nope
 sourness: 
 style: IPA
-thumbnail: beer-preview.png
 ---

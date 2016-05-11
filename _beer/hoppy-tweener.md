@@ -8,8 +8,7 @@ gravity:
 img: beer.png
 modal-id: hoppy-tweener
 name: Hoppy Tweener
-on-tap: yup
+on-tap: nope
 sourness: 
 style: Saison
-thumbnail: beer-preview.png
 ---

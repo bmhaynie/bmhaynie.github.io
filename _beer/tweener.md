@@ -5,11 +5,10 @@ availability: Keg
 bitterness: 
 description:
 gravity: 
-img: beer.png
+img: tweener.jpg
 modal-id: tweener
 name: Tweener
-on-tap: nope
+on-tap: yup
 sourness: 
 style: Saison
-thumbnail: beer-preview.png
 ---

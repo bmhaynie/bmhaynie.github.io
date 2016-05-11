@@ -11,5 +11,4 @@ name: Crazy Lucia
 on-tap: nope
 sourness: 
 style: Belgian Blonde Ale
-thumbnail: beer-preview.png
 ---
