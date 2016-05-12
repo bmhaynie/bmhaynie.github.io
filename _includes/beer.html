@@ -10,7 +10,7 @@
         <div class="row">
             {% for beer in site.beer %}
                 {% if beer.on-tap == "yup" %}
-                    <div class="col-lg-3 col-md-4 col-xs-6 beer-item">
+                    <div class="col-lg-3 col-md-4 col-sm-6 beer-item">
                         <a href="#{{ beer.modal-id }}" class="beer-link" data-toggle="modal">
                             <div class="beer-hover">
                                 <div class="beer-hover-content">
@@ -20,8 +20,8 @@
                             <img src="img/beer/{{ beer.img }}" class="img-responsive img-centered" alt="">
                         </a>
                         <div class="beer-caption">
-                            <h4>{{ beer.name }}</h4>
-                            <p class="text-muted">{{ beer.style }}</p>
+                            <h3>{{ beer.name }}</h3>
+                            <p class="text-muted">{{ beer.style }}<span>{{ beer.abv }}</span></p>
                         </div>
                     </div>
                 {% endif %}
