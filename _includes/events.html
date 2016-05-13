@@ -2,7 +2,17 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
-                <h2 class="section-heading">Events</h2>
+                <h2 class="section-heading">Upcoming Events</h2>
+				<!-- <ul>
+					{% for post in site.categories.event %}
+						<li>
+							<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+						</li>
+					{% endfor %}
+				</ul> -->
+				{% for events in site.events %}
+					<a href="{{ events.url | prepend: site.baseurl }}">{{ events.title }}</a>
+				{% endfor %}
             </div>
         </div>
     </div>

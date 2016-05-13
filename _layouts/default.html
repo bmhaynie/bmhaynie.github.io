@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html>
-	{% include head.html %}
-	<body id="page-top" class="index">
-		{% include nav.html %}
-		{% include header.html %}
-		{% include beer.html %}
-		{% include events.html %}
-		{% include about.html %}
-		{% include blog.html %}
-		{% include contact.html %}
-		{% include footer.html %}
-		{% include modal.html %}
-	    {% include scripts.html %}
-	</body>
-</html>
+---
+layout: base
+---
 
-<!-- {{ content }} -->
+{% include header.html %}
+{% include beer.html %}
+{% include events.html %}
+{% include about.html %}
+{% include blog.html %}
+{% include contact.html %}
+{% include modal.html %}

@@ -22,11 +22,9 @@ twitter_username: highbranchbeer
 instagram_username: highbranchbeer
 collections:
   beer:
-  team:
-# collections:
-#   beer:
-#     output: true
-#     permalink: /beer/:path/
+  events:
+    output: true
+    permalink: /events/:path/
 
 # Build settings
 markdown: kramdown
