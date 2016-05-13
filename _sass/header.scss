@@ -10,6 +10,10 @@ header {
 	position: relative;
 	.intro {
 		padding: 100px 0 50px 0;
+		img {
+			height: auto;
+			width: 100%;
+		}
 	}
 	.texture {
 		background-image: url('../img/texture.png');
