@@ -1,6 +1,7 @@
 header {
 	background-color: $gray-darkest;
-	background-image: url('../img/header-bg.jpg');
+	// background-image: url('../img/header-bg.jpg');
+	background-image: url('https://images.unsplash.com/photo-1446104838475-bc6508184f08?crop=entropy&dpr=2&fit=crop&fm=jpg&h=625&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250');
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
@@ -16,6 +17,14 @@ header {
 	header {
 		.intro {
 			padding: 150px 0;
+		}
+	}
+}
+
+@media(min-width:1200px) {
+	header {
+		.intro {
+			padding: 200px 0 150px;
 		}
 	}
 }

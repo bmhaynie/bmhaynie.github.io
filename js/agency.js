@@ -30,3 +30,16 @@ var currentYear = (new Date()).getFullYear();
 	$(document).ready(function() {
 	$("#year").text(currentYear);
 });
+
+// Age checker
+// $(document).ready(function(){ 
+//     var minAge = $('select').val();
+//     $('select').on('change', function(){
+//        minAge = $(this).val(); 
+//     });
+//     $('button').on('click', function(){
+//         sessionStorage.clear();
+//         $.ageCheck({minAge: minAge});
+//     });
+//     $.ageCheck({minAge: minAge});        
+// });        
