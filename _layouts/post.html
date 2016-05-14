@@ -1,10 +1,9 @@
 ---
-layout: base
+layout: page
 ---
 
-{{ page.title }}<br>
 {{ page.date | date: "%b %-d, %Y" }}
-<!-- {% if page.author %}
-	{{ page.author }}
-{% endif %} -->
+{% if page.author %}
+	by {{ page.author }}
+{% endif %}
 {{ content }}
