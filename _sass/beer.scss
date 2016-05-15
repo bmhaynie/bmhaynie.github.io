@@ -79,24 +79,31 @@
         box-shadow: none;
         border: none;
         min-height: 100%;
-        padding: 100px 0;
-        text-align: center;
-        h2 {
-            margin-bottom: 15px;
-            font-size: 3em;
+        padding: 50px 0;
+        // text-align: center;
+        .modal-body {
+            padding: 0;
+        }
+        h3 {
+            font-size: 48px;
+            margin: 0;
         }
         p {
-            margin-bottom: 30px;
-        }
-        p.item-intro {
-            margin: 20px 0 30px;
-            @include serif-font;
-            font-style: italic;
-            font-size: 16px;
+            a {
+                cursor: pointer;
+            }
+            span {
+                font-size: 24px;
+            }
         }
         ul.list-inline {
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             margin-top: 0;
+            li {
+                strong {
+                    color: $brand-primary;
+                }
+            }
         }
         img {
             margin-bottom: 30px;

@@ -9,11 +9,13 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-sm-5 col-sm-offset-1">
+                        <img src="img/beer/{{ beer.img }}" class="img-responsive img-centered" alt="{{ beer.alt }}">
+                    </div>
+                    <div class="col-sm-5">
                         <div class="modal-body">
-                            <h2>{{ beer.name }}</h2>
-                            <p class="item-intro text-muted">{{ beer.style }}</p>
-                            <img src="img/beer/{{ beer.img }}" class="img-responsive img-centered" alt="{{ beer.alt }}">
+                            <h3>{{ beer.name }}</h3>
+                            <p class="text-muted"><span>{{ beer.style }}</span></p>
                             <p>{{ beer.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>ABV:
@@ -25,7 +27,8 @@
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <p><a data-dismiss="modal">Back to What's On Tap</a></p>
+                            <!-- <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button> -->
                         </div>
                     </div>
                 </div>
