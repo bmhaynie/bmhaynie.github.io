@@ -199,6 +199,11 @@
                 float: none;
                 height: auto;
                 width: 100%;
+                h1 {
+                    img {
+                        display: none;
+                    }
+                }
             }
         }
         .close-modal {
