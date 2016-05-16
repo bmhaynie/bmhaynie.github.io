@@ -11,7 +11,7 @@
         <div class="row">
             {% for beer in site.beer %}
                 {% if beer.on-tap == "yup" %}
-                    <div class="col-lg-3 col-md-4 col-xs-6 beer-item">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 beer-item">
                         <a href="#{{ beer.modal-id }}" class="beer-link" data-toggle="modal">
                             <div class="beer-hover">
                                 <div class="beer-hover-content">
