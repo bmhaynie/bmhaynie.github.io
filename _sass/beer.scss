@@ -43,20 +43,24 @@
         .beer-caption {
         	max-width: 400px;
         	margin: 0 auto;
-        	background-color: white;
+        	background: #ffffff;
         	padding: 10px;
+            position: relative;
         	h3 {
                 font-size: 18px;
         		margin: 0;
         	}
         	p {
         		margin: 0;
-                span {
-                    color: $brand-primary;
-                    font-weight: 700;
-                    float: right;
-                }
         	}
+            span {
+                color: $brand-primary;
+                font-weight: 700;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                margin: 0 10px 10px 0;
+            }
         }
     }
     * {
@@ -64,88 +68,147 @@
     }
 }
 
-@media(min-width:767px) {
+@media(max-width:767px) {
     #beer {
         .beer-item {
+            .beer-caption {
+                height: 90px;
+                text-align: center;
+                p {
+                    line-height: 125%;
+                }
+                span {
+                    position: relative;
+                    margin: 0;
+                }
+            }
         }
     }
 }
 
 .beer-modal {
     .modal-content {
-        border-radius: 0;
-        background-clip: border-box;
         -webkit-box-shadow: none;
-        box-shadow: none;
+        background-clip: border-box;
+        border-radius: 0;
         border: none;
-        min-height: 100%;
-        padding: 50px 0;
-        // text-align: center;
+        box-shadow: none;
+        height: 100%;
+        .modal-image {
+            @include background-cover;
+            background-attachment: scroll;
+            background-color: $gray-darkest;
+            background-position: center center;
+            background-repeat: none;
+            color: white;
+            float: left;
+            height: 100%;
+            position: relative;
+            text-align: center;
+            width: 50%;
+        }
         .modal-body {
-            padding: 0;
-        }
-        h3 {
-            font-size: 48px;
-            margin: 0;
-        }
-        p {
-            a {
-                cursor: pointer;
+            background: #ffffff;
+            float: right;
+            height: 100%;
+            overflow: scroll;
+            padding: 40px;
+            width: 50%;
+            h1 {
+                color: $brand-primary;
+                font-size: 14px;
+                text-transform: uppercase;
+                img {
+                    display: inline;
+                    height: 20px;
+                    margin-right: 5px;
+                    width: auto;
+                }
             }
-            span {
-                font-size: 24px;
+            h3 {
+                font-size: 48px;
+                margin: 0 0 5px 0;
             }
-        }
-        ul.list-inline {
-            margin-bottom: 20px;
-            margin-top: 0;
-            li {
-                strong {
-                    color: $brand-primary;
+            p {
+                a {
+                    cursor: pointer;
+                }
+            }
+            h1, p, ul {
+                margin: 0 0 20px 0;
+            }
+            ul {
+                li {
+                    strong {
+                        color: $brand-primary;
+                    }
                 }
             }
         }
-        img {
-            margin-bottom: 30px;
-        }
     }
     .close-modal {
-        position: absolute;
-        width:75px;
-        height:75px;
         background-color:transparent;
-        top: 25px;
-        right: 25px;
         cursor: pointer;
+        height: 75px;
+        position: absolute;
+        right: 25px;
+        top: 25px;
+        width: 75px;
+        z-index: 1053;
         &:hover {
             opacity: 0.3;
         }
         .lr {
-            height:75px;
-            width:1px;
-            margin-left:35px;
-            background-color:$gray-darkest;
+            background-color: $gray-darkest;
+            height: 75px;
+            margin-left: 35px;
+            width: 1px;
             transform: rotate(45deg);
             -ms-transform: rotate(45deg);
             /* IE 9 */
             -webkit-transform: rotate(45deg);
             /* Safari and Chrome */
-            z-index:1051;
+            z-index: 1051;
             .rl {
-                height:75px;
-                width:1px;
-                background-color:$gray-darkest;
+                background-color: $gray-darkest;
+                height: 75px;
+                width: 1px;
                 transform: rotate(90deg);
                 -ms-transform: rotate(90deg);
                 /* IE 9 */
                 -webkit-transform: rotate(90deg);
                 /* Safari and Chrome */
-                z-index:1052;
+                z-index: 1052;
             }            
         }        
     }
     .modal-backdrop {
         opacity: 0;
         display: none;
+    }
+}
+
+@media(max-width:767px) {
+    .beer-modal {
+        .modal-content {
+            .modal-image {
+                height: 50%;
+                float: none;
+                width: 100%;
+            }
+            .modal-body {
+                float: none;
+                height: auto;
+                width: 100%;
+            }
+        }
+        .close-modal {
+            .lr {
+                background-color: #ffffff;
+                .rl {
+                    background-color: #ffffff;
+                }
+            }
+        }
     }
 }

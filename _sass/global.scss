@@ -78,25 +78,21 @@ h1, h2, h3, h4, h5, h6 {
 // Global Section Styles
 
 section {
-    padding: 50px 0;
+    padding: 100px 0;
     h2.section-heading {
         color: $brand-primary;
-        font-size: 40px;
+        font-size: 42px;
         margin-top: 0;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
-    h3.section-subheading {
-        font-size: 16px;
-        @include serif-font;
-        font-style: italic;
-        font-weight: 400;
-        margin-bottom: 75px;
+    p.lead {
+        margin-bottom: 25px;
     }
 }
 
-@media(min-width:768px) {
+@media(max-width:768px) {
     section {
-        padding: 100px 0;
+        padding: 50px 0;
     }
 }
 
@@ -106,27 +102,3 @@ section {
 .btn:active:focus {
     outline: none;
 }
-
-// Highlight Color Customization
-
-// ::-moz-selection {
-//     text-shadow: none;
-//     background: $brand-primary;
-// }
-
-// ::selection {
-//     text-shadow: none;
-//     background: $brand-primary;
-// }
-
-// img::selection {
-//     background: transparent;
-// }
-
-// img::-moz-selection {
-//     background: transparent;
-// }
-
-// body {
-//     webkit-tap-highlight-color: $brand-primary;
-// }
