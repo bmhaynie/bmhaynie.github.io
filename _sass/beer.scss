@@ -125,23 +125,14 @@
                 }
             }
             h3 {
-                font-size: 48px;
+                font-size: 42px;
                 margin: 0 0 5px 0;
             }
-            p {
-                a {
-                    cursor: pointer;
-                }
+            a {
+                cursor: pointer;
             }
             h1, p, ul {
                 margin: 0 0 20px 0;
-            }
-            ul {
-                li {
-                    strong {
-                        color: $brand-primary;
-                    }
-                }
             }
         }
     }
@@ -203,6 +194,9 @@
                     img {
                         display: none;
                     }
+                }
+                h3 {
+                    font-size: 36px;
                 }
             }
         }
