@@ -20,6 +20,8 @@ url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 facebook_username: HighBranchBrewing
 twitter_username: highbranchbeer
 instagram_username: highbranchbeer
+tj_email: tj@highbranchbrewing.com
+maureen_email: maureen@highbranchbrewing.com
 collections:
   beer:
   events:

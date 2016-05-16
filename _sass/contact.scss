@@ -2,12 +2,14 @@
 
 section#contact {
 	background-color: $gray-darkest;
-	// background-image: url('../img/map-image.png');
-	// background-position: center;
-	// background-repeat: no-repeat;
 	color: $gray;
 	h3 {
-		color: white;
+		color: #ffffff;
+	}
+	p {
+		span {
+			color: #ffffff;
+		}
 	}
 	.form-group {
 		margin-bottom: 25px;

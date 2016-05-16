@@ -68,23 +68,6 @@
     }
 }
 
-@media(max-width:767px) {
-    #beer {
-        .beer-item {
-            .beer-caption {
-                text-align: center;
-                p {
-                    line-height: 125%;
-                }
-                span {
-                    position: relative;
-                    margin: 0;
-                }
-            }
-        }
-    }
-}
-
 .beer-modal {
     .modal-content {
         -webkit-box-shadow: none;
@@ -179,6 +162,20 @@
 }
 
 @media(max-width:767px) {
+    #beer {
+        .beer-item {
+            .beer-caption {
+                text-align: center;
+                p {
+                    line-height: 125%;
+                }
+                span {
+                    position: relative;
+                    margin: 0;
+                }
+            }
+        }
+    }
     .beer-modal {
         .modal-content {
             .modal-image {
