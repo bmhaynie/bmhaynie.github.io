@@ -7,6 +7,7 @@ description:
 gravity: 
 hops: 
 img: caroline.jpg
+layout: beer
 malt: 
 modal-id: caroline
 name: Caroline

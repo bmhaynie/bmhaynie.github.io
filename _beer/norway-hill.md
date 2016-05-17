@@ -7,6 +7,7 @@ description:
 gravity: 
 hops: 
 img: norway-hill.jpg
+layout: beer
 malt: 
 modal-id: norway-hill
 name: Norway Hill

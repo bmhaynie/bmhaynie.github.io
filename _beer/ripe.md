@@ -7,6 +7,7 @@ description:
 gravity: 
 hops: 
 img: ripe.jpg
+layout: beer
 malt: 
 modal-id: ripe
 name: Ripe

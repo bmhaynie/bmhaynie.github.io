@@ -7,6 +7,7 @@ description:
 gravity: 
 hops: 
 img: muscadean.jpg
+layout: beer
 malt: 
 modal-id: muscadean
 name:  Muscadean

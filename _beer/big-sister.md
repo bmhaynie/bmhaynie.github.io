@@ -7,11 +7,11 @@ description: This beer is our interpretation of a Double IPA, it’s loaded with
 gravity: '1.070'
 hops: 
 img: big-sister.jpg
+layout: beer
 malt: 
 modal-id: big-sister
 name: Big Sister
 on-tap: yup
 sourness: None
 style: American Double IPA
-url: /big-sister/
 ---

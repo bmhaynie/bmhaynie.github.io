@@ -1,7 +1,5 @@
 ---
 layout: page
-title: Events
+title: All Events
 permalink: /events/
 ---
-
-OMG Events

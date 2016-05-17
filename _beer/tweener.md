@@ -7,6 +7,7 @@ description:
 gravity: 
 hops: 
 img: tweener.jpg
+layout: beer
 malt: 
 modal-id: tweener
 name: Tweener

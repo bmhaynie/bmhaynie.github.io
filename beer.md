@@ -1,6 +1,6 @@
 ---
 layout: base
-title: Beer
+title: All Beer
 permalink: /beer/
 ---
 
@@ -8,16 +8,13 @@ permalink: /beer/
     <div class="container">
         <div class="row text-center">
             <div class="col-xs-12">
-                <h2 class="section-heading">All Beer</h2>
-            </div>
-            <div class="col-sm-10 col-sm-offset-1">
-                <p class="lead">Lorem ipsum dolor sit amet consectetur adipiscing elit. Etiam eget elementum dui in ornare est.<span class="hidden-sm hidden-xs">Click on</span><span class="hidden-lg hidden-md">Tap</span> each photo for more details.</p>
+                <h2 class="section-heading">{{ page.title }}</h2>
             </div>
         </div>
         <div class="row">
             {% for beer in site.beer %}
                 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 beer-item">
-                    <a href="/#{{ beer.modal-id }}" class="beer-link" data-toggle="modal">
+                    <a href="{{ beer.url }}" class="beer-link">
                         <div class="beer-hover">
                             <div class="beer-hover-content">
                                 <i class="fa fa-search-plus fa-3x"></i>

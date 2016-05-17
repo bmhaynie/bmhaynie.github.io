@@ -1,7 +1,5 @@
 ---
 layout: page
-title: Blog
+title: All Posts
 permalink: /blog/
 ---
-
-OMG Blogs

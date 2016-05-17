@@ -1,0 +1,31 @@
+---
+layout: page
+---
+
+<p class="lead text-muted">{{ page.style }}</p>
+<p>{{ page.description }}</p>
+<p><img src="/img/beer/{{ page.img }}" class="img-thumbnail img-circle" alt="" style="width: 25%; height: auto;"></p>
+<ul class="list-unstyled item-details">
+    <li><strong>ABV:</strong>
+        {{ page.abv }}
+    </li>
+    <li><strong>Availability:</strong>
+        {{ page.availability }}
+    </li>
+    <li><strong>Bitterness:</strong>
+        {{ page.bitterness }}
+    </li>
+    <li><strong>Gravity:</strong>
+        {{ page.gravity }}
+    </li>
+    <li><strong>Hops:</strong>
+        {{ page.hops }}
+    </li>
+    <li><strong>Malt:</strong>
+        {{ page.malt }}
+    </li>
+    <li><strong>Sourness:</strong>
+        {{ page.sourness }}
+    </li>
+</ul>
+<p><a href="/beer/"><i class="fa fa-long-arrow-left"></i>Back to All Beer</a></p>

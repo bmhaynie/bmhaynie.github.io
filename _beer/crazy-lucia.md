@@ -7,6 +7,7 @@ description:
 gravity: 
 hops: 
 img: beer.jpg
+layout: beer
 malt: 
 modal-id: crazy-lucia
 name: Crazy Lucia

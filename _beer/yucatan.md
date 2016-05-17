@@ -7,6 +7,7 @@ description:
 gravity: 
 hops: 
 img: yucatan.jpg
+layout: beer
 malt: 
 modal-id: yucatan
 name: Yucatan

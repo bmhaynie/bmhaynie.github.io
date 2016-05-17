@@ -1,5 +1,4 @@
 ---
-author: TJ
 date: 2016-04-08 08:20:01 -0400
 layout: event
 title: Example Event

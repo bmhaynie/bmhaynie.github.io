@@ -7,6 +7,7 @@ description:
 gravity: 
 hops: 
 img: beer.jpg
+layout: beer
 malt: 
 modal-id: hail-the-brown-ale
 name: Hail the Brown Ale

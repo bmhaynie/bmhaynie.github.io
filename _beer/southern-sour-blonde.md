@@ -7,6 +7,7 @@ description:
 gravity: 
 hops: 
 img: southern-sour-blonde.jpg
+layout: beer
 malt: 
 modal-id: southern-sour-blonde
 name: Southern Sour Blonde
