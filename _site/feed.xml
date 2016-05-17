@@ -4,10 +4,10 @@
     <title>High Branch Brewing Co</title>
     <description>Site description
 </description>
-    <link>http://127.0.0.1:4000/</link>
-    <atom:link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 May 2016 14:02:39 -0400</pubDate>
-    <lastBuildDate>Tue, 17 May 2016 14:02:39 -0400</lastBuildDate>
+    <link>http://bmhaynie.github.io//</link>
+    <atom:link href="http://bmhaynie.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 17 May 2016 14:11:41 -0400</pubDate>
+    <lastBuildDate>Tue, 17 May 2016 14:11:41 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -27,8 +27,8 @@
 &lt;p&gt;Thanks for reading and talk to you soon!&lt;/p&gt;
 </description>
         <pubDate>Thu, 31 Dec 2015 08:00:00 -0500</pubDate>
-        <link>http://127.0.0.1:4000/blog/2015/12/31/why-start-a-brewery/</link>
-        <guid isPermaLink="true">http://127.0.0.1:4000/blog/2015/12/31/why-start-a-brewery/</guid>
+        <link>http://bmhaynie.github.io//blog/2015/12/31/why-start-a-brewery/</link>
+        <guid isPermaLink="true">http://bmhaynie.github.io//blog/2015/12/31/why-start-a-brewery/</guid>
         
         
       </item>
