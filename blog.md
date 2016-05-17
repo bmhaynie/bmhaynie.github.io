@@ -4,4 +4,4 @@ title: Blog
 permalink: /blog/
 ---
 
-Weeeee
+OMG Blogs

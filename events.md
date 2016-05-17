@@ -4,4 +4,4 @@ title: Events
 permalink: /events/
 ---
 
-Weeeee
+OMG Events

@@ -64,27 +64,6 @@
 		background-color: darken($brand-primary, 10%);
 	}
 }
-
-@media(min-width:768px) {
-    .navbar-default {
-    	background: rgba(0,0,0,.5);
-        padding: 10px 0;
-        border: none;
-    	-webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        transition: all 0.3s;
-	    .navbar-brand {
-	        -webkit-transition: all 0.3s;
-	        -moz-transition: all 0.3s;
-	        transition: all 0.3s;
-	    }
-		.navbar-nav>.active>a {
-			border-radius: 3px;
-		}
-    }
-    .navbar-default.navbar-shrink {
-    	background-color: $gray-darkest;
-		.navbar-brand {
-	    }    
-	}
+.navbar-fixed-top {
+	border: none;
 }

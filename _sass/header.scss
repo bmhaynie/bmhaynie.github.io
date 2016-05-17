@@ -9,7 +9,7 @@ header {
 	color: white;
 	position: relative;
 	.intro {
-		padding: 100px 0 50px 0;
+		padding: 150px 0 100px 0;
 		img {
 			height: auto;
 			width: 100%;
@@ -45,10 +45,10 @@ header {
 	}
 }
 
-@media(min-width:768px) {
+@media(max-width:768px) {
 	header {
 		.intro {
-			padding: 150px 0;
+			padding: 100px 0 50px 0;
 		}
 	}
 }
