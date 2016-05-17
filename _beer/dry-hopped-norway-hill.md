@@ -5,11 +5,12 @@ availability: Keg
 bitterness: 
 description:
 gravity: 
-img: beer.png
+hops: 
+img: beer.jpg
+malt: 
 modal-id: dry-hopped-norway-hill
+name: Dry Hopped Norway Hill
 on-tap: nope
 sourness: 
 style: Saison
-thumbnail: beer-preview.png
-name: Dry Hopped Norway Hill
 ---

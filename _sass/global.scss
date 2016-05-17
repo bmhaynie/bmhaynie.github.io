@@ -58,6 +58,15 @@ h1, h2, h3, h4, h5, h6 {
     background-color: $gray-darkest;
 }
 
+.texture {
+    background-image: url('../img/texture.png');
+    background-repeat: repeat;
+    background-size: 3px 3px;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
 // Restyled Primary Buttons
 
 .btn-primary {
@@ -79,23 +88,30 @@ h1, h2, h3, h4, h5, h6 {
 
 section {
     padding: 100px 0;
-    h2.section-heading {
-        color: $brand-primary;
-        font-size: 42px;
-        margin-top: 0;
-        margin-bottom: 25px;
-    }
-    p.lead {
-        margin-bottom: 25px;
-    }
+}
+h2.section-heading {
+    color: $brand-primary;
+    font-size: 42px;
+    margin: 0 0 25px 0;
+}
+p.lead {
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+
+i.fa-long-arrow-right {
+    margin-left: 5px;
 }
 
 @media(max-width:768px) {
     section {
         padding: 50px 0;
-        h2.section-heading {
-            font-size: 36px;
-        }
+    }
+    h2.section-heading {
+        font-size: 36px;
+    }
+    p.lead {
+        font-size: 18px;
     }
 }
 

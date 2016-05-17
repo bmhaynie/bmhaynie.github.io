@@ -5,7 +5,9 @@ availability: Keg
 bitterness: 
 description:
 gravity: 
+hops: 
 img: southern-sour-blonde.jpg
+malt: 
 modal-id: southern-sour-blonde
 name: Southern Sour Blonde
 on-tap: yup

@@ -24,10 +24,11 @@ tj_email: tj@highbranchbrewing.com
 maureen_email: maureen@highbranchbrewing.com
 collections:
   beer:
+    output: true
+    permalink: /beer/:path/
   events:
     output: true
     permalink: /events/:path/
 
 # Build settings
 markdown: kramdown
-# gems: [therubyracer,jekyll-less]

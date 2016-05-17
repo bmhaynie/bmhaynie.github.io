@@ -5,7 +5,9 @@ availability: Keg
 bitterness: 
 description:
 gravity: 
-img: beer.png
+hops: 
+img: beer.jpg
+malt: 
 modal-id: mcgill-avenue
 name: McGill Avenue
 on-tap: nope

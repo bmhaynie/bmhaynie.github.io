@@ -5,7 +5,9 @@ availability: Keg
 bitterness: 
 description:
 gravity: 
-img: beer.png
+hops: 
+img: beer.jpg
+malt: 
 modal-id: quick-learner
 name: Quick Learner
 on-tap: nope

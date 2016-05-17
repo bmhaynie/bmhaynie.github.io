@@ -5,7 +5,9 @@ availability: Keg
 bitterness: 
 description:
 gravity: 
-img: beer.png
+hops: 
+img: beer.jpg
+malt: 
 modal-id: philips-revenge
 name: Philips Revenge
 on-tap: nope

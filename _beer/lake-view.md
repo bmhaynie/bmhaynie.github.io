@@ -5,7 +5,9 @@ availability: Keg
 bitterness: 
 description:
 gravity: 
-img: beer.png
+hops: 
+img: beer.jpg
+malt: 
 modal-id: lake-view
 name: Lake View
 on-tap: nope

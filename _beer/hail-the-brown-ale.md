@@ -5,7 +5,9 @@ availability: Keg
 bitterness: 
 description:
 gravity: 
-img: beer.png
+hops: 
+img: beer.jpg
+malt: 
 modal-id: hail-the-brown-ale
 name: Hail the Brown Ale
 on-tap: nope

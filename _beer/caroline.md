@@ -5,7 +5,9 @@ availability: Keg
 bitterness: 
 description:
 gravity: 
+hops: 
 img: caroline.jpg
+malt: 
 modal-id: caroline
 name: Caroline
 on-tap: yup

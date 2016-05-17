@@ -8,21 +8,6 @@ header {
 	text-align: center;
 	color: white;
 	position: relative;
-	.intro {
-		padding: 150px 0 100px 0;
-		img {
-			height: auto;
-			width: 100%;
-		}
-	}
-	.texture {
-		background-image: url('../img/texture.png');
-		background-repeat: repeat;
-		background-size: 3px 3px;
-		height: 100%;
-		position: absolute;
-		width: 100%;
-	}
 	.sticker {
 		position: absolute;
 		bottom: 0;
@@ -43,16 +28,19 @@ header {
 	        }
 		}
 	}
-}
-
-@media(max-width:768px) {
-	header {
-		.intro {
-			padding: 100px 0 50px 0;
+	.logo {
+		padding: 150px 0 100px 0;
+		img {
+			height: auto;
+			width: 100%;
 		}
 	}
 }
 
-@media(min-width:1200px) {
-
+@media(max-width:768px) {
+	header {
+		.logo {
+			padding: 100px 0 50px 0;
+		}
+	}
 }

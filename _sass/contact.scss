@@ -7,49 +7,7 @@ section#contact {
 	h3 {
 		color: #ffffff;
 	}
-	p {
-		span {
-			color: #ffffff;
-		}
-	}
-	.form-group {
-		margin-bottom: 25px;
-		input,
-		textarea {
-			padding: 10px;
-		}
-		input.form-control {
-			height: auto;
-		}
-		textarea.form-control {
-			height: 100px;
-		}
-	}
-	.form-control:focus {
-		border-color: $brand-primary;
-		box-shadow: none;
-	}
-	::-webkit-input-placeholder {
-   	@include heading-font;
-	   font-weight: 700;
-	   color: $placeholder-text;
-	}
-	:-moz-placeholder { /* Firefox 18- */
-   	@include heading-font;
-	   font-weight: 700;
-	   color: $placeholder-text;
-	}
-	::-moz-placeholder {  /* Firefox 19+ */
-   	@include heading-font;
-	   font-weight: 700;
-	   color: $placeholder-text;
-	}
-	:-ms-input-placeholder {  
-   	@include heading-font;
-	   font-weight: 700;
-	   color: $placeholder-text;
-	}
-	.text-danger {
-		color: $brand-danger;
+	i {
+		margin-right: 10px;
 	}
 }
