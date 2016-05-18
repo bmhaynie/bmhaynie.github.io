@@ -16,6 +16,7 @@ body {
 p {
     font-size: 14px;
     line-height: 1.75;
+    margin: 0 0 15px 0;
 }
 
 p.large {
@@ -89,6 +90,9 @@ h1, h2, h3, h4, h5, h6 {
 section {
     padding: 100px 0;
 }
+section.page {
+    padding: 100px 0 50px 0;
+}
 h2.section-heading {
     color: $brand-primary;
     font-size: 42px;
@@ -109,9 +113,6 @@ i.fa-long-arrow-left {
 @media(max-width:768px) {
     section {
         padding: 50px 0;
-    }
-    section.page {
-        padding: 100px 0 50px 0;
     }
     h2.section-heading {
         font-size: 36px;
