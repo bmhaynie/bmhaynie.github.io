@@ -10,7 +10,7 @@ img: beer.jpg
 layout: beer
 malt: 
 modal-id: philips-revenge
-name: Philips Revenge
+title: Philips Revenge
 on-tap: nope
 sourness: 
 style: Smoked Saison

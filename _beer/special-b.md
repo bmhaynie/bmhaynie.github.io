@@ -10,7 +10,7 @@ img: beer.jpg
 layout: beer
 malt: 
 modal-id: special-b
-name: Special B
+title: Special B
 on-tap: nope
 sourness: 
 style: American Red Ale

@@ -10,7 +10,7 @@ img: caroline.jpg
 layout: beer
 malt: 
 modal-id: caroline
-name: Caroline
+title: Caroline
 on-tap: yup
 sourness: 
 style: Sour

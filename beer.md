@@ -23,7 +23,7 @@ permalink: /beer/
                         <img src="/img/beer/{{ beer.img }}" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="beer-caption">
-                        <h3>{{ beer.name }}</h3>
+                        <h3>{{ beer.title }}</h3>
                         <p class="text-muted">{{ beer.style }}</p>
                         <p><span>{{ beer.abv }}</span></p>
                     </div>

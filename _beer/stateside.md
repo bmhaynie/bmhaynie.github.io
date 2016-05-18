@@ -10,7 +10,7 @@ img: beer.jpg
 layout: beer
 malt: 
 modal-id: stateside
-name: Stateside
+title: Stateside
 on-tap: nope
 sourness: 
 style: Belgian Pale Ale

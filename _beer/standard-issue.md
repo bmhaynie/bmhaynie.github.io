@@ -10,7 +10,7 @@ img: beer.jpg
 layout: beer
 malt: 
 modal-id: standard-issue
-name: Standard Issue
+title: Standard Issue
 on-tap: nope
 sourness: 
 style: Stout

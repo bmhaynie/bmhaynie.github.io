@@ -10,7 +10,7 @@ img: beer.jpg
 layout: beer
 malt: 
 modal-id: tied-on
-name: Tied On
+title: Tied On
 on-tap: nope
 sourness: 
 style: Belgian Tripel Ale

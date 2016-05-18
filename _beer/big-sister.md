@@ -10,7 +10,6 @@ img: big-sister.jpg
 layout: beer
 malt: 
 modal-id: big-sister
-name: Big Sister
 on-tap: yup
 sourness: None
 style: American Double IPA

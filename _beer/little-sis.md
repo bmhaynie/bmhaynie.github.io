@@ -10,7 +10,7 @@ img: beer.jpg
 layout: beer
 malt: 
 modal-id: little-sis
-name: Little Sis
+title: Little Sis
 on-tap: nope
 sourness: 
 style: IPA

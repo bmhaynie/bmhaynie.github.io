@@ -10,7 +10,7 @@ img: southern-sour-blonde.jpg
 layout: beer
 malt: 
 modal-id: southern-sour-blonde
-name: Southern Sour Blonde
+title: Southern Sour Blonde
 on-tap: yup
 sourness: 
 style: Sour

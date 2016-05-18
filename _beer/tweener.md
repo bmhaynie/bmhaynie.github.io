@@ -10,7 +10,7 @@ img: tweener.jpg
 layout: beer
 malt: 
 modal-id: tweener
-name: Tweener
+title: Tweener
 on-tap: yup
 sourness: 
 style: Saison

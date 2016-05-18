@@ -10,7 +10,7 @@ img: beer.jpg
 layout: beer
 malt: 
 modal-id: dry-hopped-norway-hill
-name: Dry Hopped Norway Hill
+title: Dry Hopped Norway Hill
 on-tap: nope
 sourness: 
 style: Saison

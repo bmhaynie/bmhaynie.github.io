@@ -10,7 +10,7 @@ img: beer.jpg
 layout: beer
 malt: 
 modal-id: crazy-lucia
-name: Crazy Lucia
+title: Crazy Lucia
 on-tap: nope
 sourness: 
 style: Belgian Blonde Ale

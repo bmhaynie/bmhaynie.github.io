@@ -10,7 +10,7 @@ img: beer.jpg
 layout: beer
 malt: 
 modal-id: quick-learner
-name: Quick Learner
+title: Quick Learner
 on-tap: nope
 sourness: 
 style: American Session Ale

@@ -10,7 +10,7 @@ img: beer.jpg
 layout: beer
 malt: 
 modal-id: mill-town
-name: Mill Town
+title: Mill Town
 on-tap: nope
 sourness: 
 style: Brown Ale

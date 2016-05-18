@@ -10,7 +10,7 @@ img: beer.jpg
 layout: beer
 malt: 
 modal-id: cafe-au-porter
-name: Cafe au Porter
+title: Cafe au Porter
 on-tap: nope
 sourness: 
 style: Porter

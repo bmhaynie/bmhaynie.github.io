@@ -10,7 +10,7 @@ img: ripe.jpg
 layout: beer
 malt: 
 modal-id: ripe
-name: Ripe
+title: Ripe
 on-tap: yup
 sourness: 
 style: Saison

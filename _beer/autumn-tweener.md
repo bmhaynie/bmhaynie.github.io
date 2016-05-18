@@ -10,7 +10,7 @@ img: beer.jpg
 layout: beer
 malt: 
 modal-id: autumn-tweener
-name: Autumn Tweener
+title: Autumn Tweener
 on-tap: nope
 sourness: 
 style: Saison
