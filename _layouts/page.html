@@ -6,7 +6,7 @@ layout: base
     <div class="container">
         <div class="row text-center">
             <div class="col-sm-8 col-sm-offset-2">
-                <h2 class="section-heading" style="margin: 0;">{{ page.title }}</h2>
+                <h2 class="section-heading" style="margin: 0;">{% if page.title %}{{ page.title }}{% else %}{{ page.name }}{% endif %}</h2>
 	            {{ content }}
             </div>
         </div>
