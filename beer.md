@@ -4,7 +4,7 @@ title: All Beer
 permalink: /beer/
 ---
 
-<section id="beer" class="bg-light-gray">
+<section id="beer" class="page bg-light-gray">
     <div class="container">
         <div class="row text-center">
             <div class="col-xs-12">
