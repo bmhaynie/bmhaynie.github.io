@@ -14,4 +14,5 @@ name: Big Sister
 on-tap: yup
 sourness: None
 style: American Double IPA
+title: Big Sister
 ---
