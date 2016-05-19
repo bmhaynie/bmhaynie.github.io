@@ -37,7 +37,7 @@ $(document).ready(function() {
         $('#ageModal').modal('show');
     }
     $('#age-yes').bind('click', function(event) {
-        $.cookie('pop', '7', { path: '/' });
+        $.cookie('pop', '7', { expires: 7 }, { path: '/' });
     });
     $('#age-no').bind('click', function(event) {
         $.removeCookie('pop', { path: '/' });
