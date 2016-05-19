@@ -35,6 +35,11 @@ var currentYear = (new Date()).getFullYear();
 $(document).ready(function() {
     if($.cookie('pop') == null) {
         $('#ageModal').modal('show');
-        $.cookie('pop', '7');
     }
+    $('#age-yes').bind('click', function(event) {
+        $.cookie('pop', '7', { path: '/' });
+    });
+    $('#age-no').bind('click', function(event) {
+        $.removeCookie('pop', { path: '/' });
+    });
 });
