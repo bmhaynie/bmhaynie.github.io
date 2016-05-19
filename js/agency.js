@@ -31,15 +31,10 @@ var currentYear = (new Date()).getFullYear();
 	$("#year").text(currentYear);
 });
 
-// Age checker
-// $(document).ready(function(){ 
-//     var minAge = $('select').val();
-//     $('select').on('change', function(){
-//        minAge = $(this).val(); 
-//     });
-//     $('button').on('click', function(){
-//         sessionStorage.clear();
-//         $.ageCheck({minAge: minAge});
-//     });
-//     $.ageCheck({minAge: minAge});        
-// });        
+// Age Verification
+$(document).ready(function() {
+    if ($.cookie("pop") == null) {
+        $("#ageModal").modal("show");
+    $.cookie("pop", "2");
+    }
+});
