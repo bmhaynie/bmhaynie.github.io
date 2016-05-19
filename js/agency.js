@@ -33,8 +33,8 @@ var currentYear = (new Date()).getFullYear();
 
 // Age Verification
 $(document).ready(function() {
-    if ($.cookie("pop") == null) {
-        $("#ageModal").modal("show");
-    $.cookie("pop", "2");
+    if($.cookie('pop') == null) {
+        $('#ageModal').modal('show');
+        $.cookie('pop', '7');
     }
 });
